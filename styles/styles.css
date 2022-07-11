@@ -1,0 +1,358 @@
+body {
+    width: 1440px;
+    background: #FFFFFF;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+* {
+    transition: all .1s ease-in;
+}
+
+.content {
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 142px;
+    margin: 17px auto;
+}
+
+ul {
+    display: flex;  
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+a {
+    color: #2F281E;
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: 18px;
+}
+
+.first-link {
+    color: Orange;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.first-button, .second-button {
+    width: 110px;
+    height: 46px;
+    border-radius: 4px;
+    gap: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.first-button {
+    background-color: #FFFFFF;
+    color: black;
+    border: 1px solid #BCD0E5;
+}
+
+.second-button {
+    background-color: orange;
+    border: none;
+}
+
+.design {
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 56px;
+    margin: 70px auto 100px;
+}
+
+.text-container h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 54px;
+    color: #2F281E;
+    margin-bottom: 30px;
+}
+
+.text-container p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #544837;
+    margin-bottom: 20px;
+}
+
+.design-button, 
+.button-registration,
+.button-submit {
+    width: 180px;
+    height: 50px;
+    background: orange;
+    border-radius: 4px;
+    border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.first-button:hover {
+    color: #FFFFFF;
+    background: black;
+}
+
+button:hover {
+    color: black;
+    background: rgb(236, 154, 0);
+    font-size: large;
+}
+
+button:focus {
+    outline: none;
+    opacity: 50%;
+}
+
+.design-elements {
+    width: 1440px;
+    height: 510px;
+    margin-bottom: 100px;
+}
+
+.background-gradient {
+    position: absolute;
+    width: 1440px;
+    height: 388px;
+    background: linear-gradient(179.59deg, rgba(255, 229, 210, 0.629261) 0.35%, rgba(255, 244, 229, 0.0001) 99.63%);
+    transform: rotate(180deg);
+    box-shadow: 0px -5px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 60% 60% 0% 0%;    
+    z-index: -1;
+}
+
+.design-elements h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #2F281E;
+    margin-bottom: 50px;
+}
+
+.icons-elements {
+    width: 1200px;
+    margin: 70px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 100px;
+}
+
+.icons-elements h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #2F281E;
+    margin-top: 30px;
+    margin-bottom: 16px;
+}
+
+.icons-elements p,
+.title p,
+.product-managers p,
+.marketers p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.design-professionals {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 113px;
+}
+
+.title h3,
+.marketers h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2F281E;
+    margin-top: 30px;
+    margin-bottom: 12px;
+}
+
+.product-managers {
+    width: 1200px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 110px;
+}
+
+.icons-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.icons-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+.product-managers h2,
+.marketers h2,
+.title h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #2F281E;
+    margin-bottom: 20px;
+}
+
+.marketers {
+    width: 1200px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 82px;
+}
+
+footer {
+    width: 1200px;
+    margin: 70px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 102px;
+}
+
+.quick-links,
+.legal-stuff {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.submit-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+footer h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: #2F281E;
+}
+
+input {
+    width: 340px;
+    height: 50px;
+    border-radius: 4px;
+    border: 1px solid #BCD0E5;
+}
+
+input:focus {
+    outline: none;
+}
+
+::placeholder {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #BCD0E5;
+}
+
+.links li a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
+}
+
+main {
+    border-bottom: 1px solid rgba(188, 208, 229, 0.496913);
+}
+
+.links li a:hover {
+    font-size: 18px;
+}
